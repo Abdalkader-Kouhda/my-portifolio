@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background-color: #2b3137;
+}
+
+.slider-container {
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider-item {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.react-multiple-carousel__arrow{
+    z-index: 10 !important;
+    margin: 0;
+}
+
+.react-multi-carousel-track {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    flex: 1 1 21rem;
+    align-self: normal;
+}
