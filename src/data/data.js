@@ -21,21 +21,21 @@ export const data = {
         {
             "id": 1,
             "title": "Profile Builder",
-            "image": "/images/projects/profile-builder.png",
+            "image": "/my-portifolio/images/projects/profile-builder.png",
             "description": "The TalPods internal recruitment team faced challenges in creating optimal profiles for talents to present to potential company hiring managers, taking extensive hours to complete. Profile builder enables creation of profile using GenAI within 4 minutes ",
             "link": "https://github.com/Abdalkader-Kouhda/profile-builder.git"
         },
         {
             "id": 2,
             "title": "School Management System",
-            "image": "/images/projects/school-management-system.png",
+            "image": "/my-portifolio/images/projects/school-management-system.png",
             "description": "A PHP-based web application designed to manage student records, courses, grades, and more for streamlined academic processes.A PHP-based web application designed to manage student records, courses, grades, and more for streamlined academic processes.A PHP-based web application designed to manage student records, courses, grades, and more for streamlined academic processes.A PHP-based web application designed to manage student records, courses, grades, and more for streamlined academic processes.",
             "link": "https://github.com/Abdalkader-Kouhda/School-Management-System.git"
         },
         {
             "id": 3,
             "title": "STEG Fraud Detection Model",
-            "image": "/images/projects/Fraud_Detection_System.jpg",
+            "image": "/my-portifolio/images/projects/Fraud_Detection_System.jpg",
             "description": "A machine learning model to predict customer fraud in the STEG Company for Electricity and Gas Consumption, helping the company proactively address fraud cases.",
             "link": "https://github.com/Abdalkader-Kouhda/STEG-Fraud-Detection-Challenge.git"
         },
@@ -43,7 +43,7 @@ export const data = {
         {
             "id": 4,
             "title": "Video Detection with Python",
-            "image": "/images/projects/Face_Detection_System.png",
+            "image": "/my-portifolio/images/projects/Face_Detection_System.png",
             "description": "A Python program that uses libraries to detect objects in a live video and display labeled outputs, with a feature to save descriptions in an audio file.",
             "link": "https://github.com/Abdalkader-Kouhda/Video-detection.git"
         }
