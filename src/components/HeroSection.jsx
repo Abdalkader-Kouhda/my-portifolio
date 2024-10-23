@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo } from "react";
-import profilePic from "../assets/images/profile-pic.png";
+import profilePic from "/public/assets/images/profile-pic.png";
 import { data } from "../data/data.js";
 
 

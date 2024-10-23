@@ -1,7 +1,7 @@
-import linkedin from "../assets/images/icons/linkedin.svg"
-import github from "../assets/images/icons/github.svg"
-import email from "../assets/images/icons/email.svg"
-import leetCode from "../assets/images/icons/leetcode.svg"
+import linkedin from "/public/assets/images/icons/linkedin.svg"
+import github from "/public/assets/images/icons/github.svg"
+import email from "/public/assets/images/icons/email.svg"
+import leetCode from "/public/assets/images/icons/leetcode.svg"
 function ContactUs() {
     return (
         <div id="contact" className="mt-6">

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import award from '../assets/images/icons/award.svg';
+import award from '/public/assets/images/icons/award.svg';
 function Award({ id, title, link }) {
     return (
         <div id={id} className="flex flex-col justify-between rounded-lg bg-primary shadow-secondary-1 mx-3 h-50">
