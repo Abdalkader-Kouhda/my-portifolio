@@ -2,7 +2,6 @@ import { useEffect, useState, useMemo } from "react";
 import profilePic from "/public/assets/images/profile-pic.png";
 import { data } from "../data/data.js";
 
-
 export default function HeroSection() {
     const [solvedProblems, setSolvedProblems] = useState(0);
 
@@ -13,7 +12,7 @@ export default function HeroSection() {
     useEffect(() => {
         const fetchProblems = async () => {
             try {
-                const response = await fetch(data.leetCodeSolved);
+                const response = await fetch('/api/Abdalkader_Kouhda/solved'); 
                 const result = await response.json();
                 setSolvedProblems(result.totalSolved);
             } catch (error) {
@@ -24,7 +23,7 @@ export default function HeroSection() {
         if (solvedProblems === 0) {
             fetchProblems();
         }
-    }, [solvedProblems]); 
+    }, [solvedProblems]);
 
     return (
         <div id="about" className="container mx-auto p-4 mt-10 bg-primary flex flex-col lg:flex-row sm:justify-center items-center">
