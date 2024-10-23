@@ -3,17 +3,17 @@ export const data = {
     "services": [
         {
             "title": "Creating a front-end web app",
-            "icon": "/my-portifolio/public/assets/images/icons/screen_icon.svg",
+            "icon": "/my-portifolio/assets/images/icons/screen_icon.svg",
             "description": "Design and develop a front-end web app using React, JavaScript, and Tailwind CSS with a focus on responsive design and optimized performance."
         },
         {
             "title": "Creating a full-stack web app",
-            "icon": "/my-portifolio/public/assets/images/icons/server_icon.svg",
+            "icon": "/my-portifolio/assets/images/icons/server_icon.svg",
             "description": "Design and develop a full-stack web app with both front-end and back-end capabilities using Node.js, React.js, and MongoDB, with proper deployment and CI/CD integration."
         },
         {
             "title": "Data Analysis, Visualization and Machine Learning",
-            "icon": "/my-portifolio/public/assets/images/icons/brain_icon.svg",
+            "icon": "/my-portifolio/assets/images/icons/brain_icon.svg",
             "description": "Leverage Python, PowerBI, DAX, Scikit-learn, Numpy, Pandas and Matplotlib to provide data  analysis, visualization, and building Models for insightful business decisions and forecasting."
         }
     ],
@@ -21,21 +21,21 @@ export const data = {
         {
             "id": 1,
             "title": "Profile Builder",
-            "image": "/my-portifolio/public/assets/images/projects/profile-builder.png",
+            "image": "/my-portifolio/assets/images/projects/profile-builder.png",
             "description": "The TalPods internal recruitment team faced challenges in creating optimal profiles for talents to present to potential company hiring managers, taking extensive hours to complete. Profile builder enables creation of profile using GenAI within 4 minutes ",
             "link": "https://github.com/Abdalkader-Kouhda/profile-builder.git"
         },
         {
             "id": 2,
             "title": "School Management System",
-            "image": "/my-portifolio/public/assets/images/projects/school-management-system.png",
+            "image": "/my-portifolio/assets/images/projects/school-management-system.png",
             "description": "A PHP-based web application designed to manage student records, courses, grades, and more for streamlined academic processes.A PHP-based web application designed to manage student records, courses, grades, and more for streamlined academic processes.A PHP-based web application designed to manage student records, courses, grades, and more for streamlined academic processes.A PHP-based web application designed to manage student records, courses, grades, and more for streamlined academic processes.",
             "link": "https://github.com/Abdalkader-Kouhda/School-Management-System.git"
         },
         {
             "id": 3,
             "title": "STEG Fraud Detection Model",
-            "image": "/my-portifolio/public/assets/images/projects/Fraud_Detection_System.jpg",
+            "image": "/my-portifolio/assets/images/projects/Fraud_Detection_System.jpg",
             "description": "A machine learning model to predict customer fraud in the STEG Company for Electricity and Gas Consumption, helping the company proactively address fraud cases.",
             "link": "https://github.com/Abdalkader-Kouhda/STEG-Fraud-Detection-Challenge.git"
         },
@@ -43,7 +43,7 @@ export const data = {
         {
             "id": 4,
             "title": "Video Detection with Python",
-            "image": "/my-portifolio/public/assets/images/projects/Face_Detection_System.png",
+            "image": "/my-portifolio/assets/images/projects/Face_Detection_System.png",
             "description": "A Python program that uses libraries to detect objects in a live video and display labeled outputs, with a feature to save descriptions in an audio file.",
             "link": "https://github.com/Abdalkader-Kouhda/Video-detection.git"
         }

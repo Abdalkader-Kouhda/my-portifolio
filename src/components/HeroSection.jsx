@@ -2,6 +2,9 @@ import { useEffect, useState, useMemo } from "react";
 import profilePic from "/public/assets/images/profile-pic.png";
 import { data } from "../data/data.js";
 
+// Define your API URL using Vite's environment variable
+const API_URL = import.meta.env.VITE_API_URL || '/api'; // Fallback to '/api' for development
+
 export default function HeroSection() {
     const [solvedProblems, setSolvedProblems] = useState(0);
 
@@ -12,7 +15,10 @@ export default function HeroSection() {
     useEffect(() => {
         const fetchProblems = async () => {
             try {
-                const response = await fetch('/api/Abdalkader_Kouhda/solved'); 
+                const response = await fetch(`${API_URL}/Abdalkader_Kouhda/solved`); 
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
                 const result = await response.json();
                 setSolvedProblems(result.totalSolved);
             } catch (error) {
